@@ -1,0 +1,20 @@
+T = int(input().strip())
+while T > 0 :
+    a = int(input().strip())
+    b = int(input().strip())
+    N = int(input().strip())
+    j = 0
+    while j < N :
+        temp = a
+        x = j
+        j+=1
+        while x >= 0 :
+                term+=(pow(2,x)*b)
+                x-=1
+        print (term+" ")
+        
+
+'''while 0 < N < 15  :
+    temp *= (a + N*(pow(2,0)*b))
+    print temp
+    N = N + 1
